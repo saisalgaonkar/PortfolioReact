@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioSai/static/css/main.d6564f24.css",
-    "main.js": "/PortfolioSai/static/js/main.099ea01c.js",
+    "main.js": "/PortfolioSai/static/js/main.3c526436.js",
     "static/js/787.a2cb61a6.chunk.js": "/PortfolioSai/static/js/787.a2cb61a6.chunk.js",
     "static/media/logo-s.png": "/PortfolioSai/static/media/logo-s.2996e6ae19932c0367d2.png",
     "static/media/helvetica-neu.ttf": "/PortfolioSai/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -9,11 +9,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/PortfolioSai/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/PortfolioSai/index.html",
     "main.d6564f24.css.map": "/PortfolioSai/static/css/main.d6564f24.css.map",
-    "main.099ea01c.js.map": "/PortfolioSai/static/js/main.099ea01c.js.map",
+    "main.3c526436.js.map": "/PortfolioSai/static/js/main.3c526436.js.map",
     "787.a2cb61a6.chunk.js.map": "/PortfolioSai/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6564f24.css",
-    "static/js/main.099ea01c.js"
+    "static/js/main.3c526436.js"
   ]
 }
