@@ -1,0 +1,74 @@
+.home-page {
+    .time-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translate(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 80px;
+        margin: 11%;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        letter-spacing: 3px;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: rgb(49, 255, 87);
+            font-size: 20px;
+            position: absolute;
+            margin-top: -18px;
+            // left: 15px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h1/ >';
+            font-family: 'La Belle Aurore';
+            color: rgb(49, 255, 87);
+            font-size: 20px;
+            position: absolute;
+            margin-top: 65px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+    }
+}
+
+h2 {
+    color: rgb(49, 255, 87);
+    font-size: 30px;
+    margin: 11%;
+    font-family: sans-serif;
+    font-weight: 30%;
+    letter-spacing: 3px;
+    margin-top: -10%;
+    animation: fadeIn 1s 1.2s backwards;
+    
+}
+
+.flat-botton {
+    color: rgb(63, 137, 76);
+    font-size: 26px;
+    margin: 11%;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: -10%;
+    animation: fadeIn 1s 1.2s backwards;
+    border: 1px solid rgb(63, 177, 84);
+    text-decoration: none;
+    white-space: nowrap;
+    float: left;
+    &:hover{
+        background: rgb(112, 255, 60);
+        color:rgb(52, 52, 52);
+        border: 5px solid rgb(112, 255, 60);
+    }
+}

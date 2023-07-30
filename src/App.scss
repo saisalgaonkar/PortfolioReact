@@ -1,0 +1,41 @@
+$primary-color: yellow;
+
+@import 'animate.css';
+@import "../node_modules/loaders.css/src/animations/pacman";
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('tff');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input,
+textarea{
+  font-family: 'Helvetica Neue';
+}
+
+.loader-active{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  // to make it center
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  // size
+  width: 50px;
+  height: 50px;
+  // this is where pacman loader is used
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}
