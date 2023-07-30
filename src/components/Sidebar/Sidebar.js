@@ -15,11 +15,11 @@ import {
 export default function Sidebar() {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link className="logo" to="/PortfolioSai">
         <img src={LogoS} alt="logo" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/PortfolioSai">
           <FontAwesomeIcon icon={faHome} color="#4d4d4d" />
         </NavLink>
 
@@ -27,7 +27,7 @@ export default function Sidebar() {
           exact="true"
           activeclassname="active"
           className="about-link"
-          to="/about"
+          to="/PortfolioSai/about"
         >
           <FontAwesomeIcon icon={faUser} color="#4d4d4d" />
         </NavLink>
@@ -36,7 +36,7 @@ export default function Sidebar() {
           exact="true"
           activeclassname="active"
           className="contact-link"
-          to="/contact"
+          to="/PortfolioSai/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
         </NavLink>

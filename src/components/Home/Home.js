@@ -72,7 +72,7 @@ export default function Home() {
 
         <h2> RPA Developer / Python Programmer / Entrepreneur</h2>
 
-        <Link to="/contact" className="flat-botton">
+        <Link to="/PortfolioSai/contact" className="flat-botton">
           &nbsp;CONTACT ME &nbsp;
         </Link>
       </div>
